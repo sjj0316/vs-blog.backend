@@ -1,0 +1,28 @@
+{
+  "name": "vs-blog.backend",
+  "version": "1.0.0",
+  "description": "디지텍 외부강의",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjj0316/vs-blog.backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjj0316/vs-blog.backend/issues"
+  },
+  "homepage": "https://github.com/sjj0316/vs-blog.backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "gray-matter": "^4.0.3",
+    "nodemon": "^2.0.20",
+    "react-markdown": "^8.0.3"
+  }
+}
