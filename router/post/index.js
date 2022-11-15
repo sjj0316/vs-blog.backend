@@ -27,6 +27,12 @@ router.get("/all", (req, res) => {
         });
 
         const convertedData = matter(result);
+        // let convertedData = matter(result);
+        // if (convertedData.data.thumbnail) {
+        //   convertedData.data.thumbnail = `${convertedData.data.thumbnail}`;
+        // } else {
+        //   convertedData.data.thumbnail = ``;
+        // }
 
         sum.push({
           type: "post",
